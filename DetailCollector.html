@@ -7,16 +7,20 @@
 
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
-<form action="mailto:sabhijot060@gmail.com" method="POST">
+
+<form action="mailto:sabhijot060@gmail.com" method="POST" enctype="text/plain">
+
 <label for="username">USERNAME:</label><br>
-<input required type="date" id="username" name="username"><br>
-<label for="country">SELECT COUNTRY:<label><br>
-<select required name="country">
+<input required type="text" id="username" name="username"><br><br>
+
+<label for="country">SELECT COUNTRY:</label><br>
+<select required id="country" name="country">
   <option value="usa">USA</option>
   <option value="canada">Canada</option>
-</select><br>
-<br>
-<button type="sumbit">Sumbit</button>
+</select><br><br>
+
+<button type="submit">Submit</button>
+
 </form>
 
 </body>
